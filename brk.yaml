@@ -1,0 +1,72 @@
+gqlPage:
+  dataSource:
+    - https://raw.githubusercontent.com/wuntusk/energy-brokers-tx/main/brk.csv
+  recordType:
+    name: Record
+    fields:
+      - name: primaryIdNo
+        sourceKey: PrimaryIDNo
+        dataType: String
+      - name: trackNo
+        sourceKey: TrackNo
+        dataType: String
+      - name: companyName
+        sourceKey: CompanyName
+        dataType: String
+      - name: dba
+        sourceKey: DBA
+        dataType: String
+      - name: title1
+        sourceKey: Title1
+        dataType: String
+      - name: title2
+        sourceKey: Title2
+        dataType: String
+      - name: title3
+        sourceKey: Title3
+        dataType: String
+      - name: address1
+        sourceKey: Address1
+        dataType: String
+      - name: address2
+        sourceKey: Address2
+        dataType: String
+      - name: city
+        sourceKey: City
+        dataType: String
+      - name: state
+        sourceKey: State
+        dataType: String
+      - name: zip
+        sourceKey: Zip
+        dataType: String
+      - name: phone
+        sourceKey: Phone
+        dataType: String
+      - name: altPhone
+        sourceKey: AltPhone
+        dataType: String
+      - name: fax
+        sourceKey: Fax
+        dataType: String
+      - name: website
+        sourceKey: Website
+        dataType: String
+      - name: email
+        sourceKey: Email
+        dataType: String
+      - name: mailGroupDesc
+        sourceKey: MailGroupDesc
+        dataType: String
+      - name: primaryAddress
+        sourceKey: PrimaryAddress
+        dataType: String
+      - name: complaintAddress
+        sourceKey: ComplaintAddress
+        dataType: String
+      - name: coServiceDesc
+        sourceKey: CoServiceDesc
+        dataType: String
+      - name: status
+        sourceKey: Status
+        dataType: String
